@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Calculadora Geometrica: Código-Fonte de include/esfera.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Calculadora Geometrica
+   </div>
+   <div id="projectbrief">Linguagem de Programação 1 (lab02) - IMD/UFRN</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">esfera.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="esfera_8h.html">Vá para a documentação deste arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef ESFERA_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define ESFERA_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#define PI 3.1415</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classEsfera.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="classEsfera.html">Esfera</a>{</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">private</span>:</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keywordtype">float</span> raio; </div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;std::   string formaGeo;  </div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="classEsfera.html#ae06875c1e4a508d0f60358739cc28e46">Esfera</a>(<span class="keywordtype">float</span> raio_,std::string formaGeo_);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="classEsfera.html#abf33ddbf68a9d97d90ddb1ee83d5c994">~Esfera</a>();</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        </div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">float</span> <a class="code" href="classEsfera.html#ac913847b6ff185ff5588c2d7cc205b4c">getRaio</a>();</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordtype">void</span> setRaio(<span class="keywordtype">float</span> raio_);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        std::string <a class="code" href="classEsfera.html#a992a955ef393cbfb8d76346237da4223">getFormaGeo</a>();</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        </div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classEsfera.html#aeea854e97a60e496e17655cf1eacb919">setFormaGeo</a>(std::string formaGeo_);</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordtype">float</span> <a class="code" href="classEsfera.html#a408c6300c8eb70ab0546631c4f44bd7e">getVolume</a>();</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordtype">float</span> <a class="code" href="classEsfera.html#a5b90efd53a3b578715eaf561be4afe75">getArea</a>();</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;};</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classEsfera_html_ae06875c1e4a508d0f60358739cc28e46"><div class="ttname"><a href="classEsfera.html#ae06875c1e4a508d0f60358739cc28e46">Esfera::Esfera</a></div><div class="ttdeci">Esfera(float raio_, std::string formaGeo_)</div><div class="ttdoc">Um construtor paramentizado. </div><div class="ttdef"><b>Definition:</b> esfera.cpp:5</div></div>
+<div class="ttc" id="classEsfera_html_aeea854e97a60e496e17655cf1eacb919"><div class="ttname"><a href="classEsfera.html#aeea854e97a60e496e17655cf1eacb919">Esfera::setFormaGeo</a></div><div class="ttdeci">void setFormaGeo(std::string formaGeo_)</div><div class="ttdoc">Metodo que atribui uma string ao nome da forma. </div><div class="ttdef"><b>Definition:</b> esfera.cpp:22</div></div>
+<div class="ttc" id="classEsfera_html_ac913847b6ff185ff5588c2d7cc205b4c"><div class="ttname"><a href="classEsfera.html#ac913847b6ff185ff5588c2d7cc205b4c">Esfera::getRaio</a></div><div class="ttdeci">float getRaio()</div><div class="ttdoc">Metodos getters e setters, atribui e acessa valores dos atributos da classe. </div><div class="ttdef"><b>Definition:</b> esfera.cpp:11</div></div>
+<div class="ttc" id="classEsfera_html_a5b90efd53a3b578715eaf561be4afe75"><div class="ttname"><a href="classEsfera.html#a5b90efd53a3b578715eaf561be4afe75">Esfera::getArea</a></div><div class="ttdeci">float getArea()</div><div class="ttdoc">Metodo que retorna um valor float referente o calculo da area. </div><div class="ttdef"><b>Definition:</b> esfera.cpp:30</div></div>
+<div class="ttc" id="classEsfera_html_a408c6300c8eb70ab0546631c4f44bd7e"><div class="ttname"><a href="classEsfera.html#a408c6300c8eb70ab0546631c4f44bd7e">Esfera::getVolume</a></div><div class="ttdeci">float getVolume()</div><div class="ttdoc">Metodo que retorna um valor float referente o calculo do volume. </div><div class="ttdef"><b>Definition:</b> esfera.cpp:26</div></div>
+<div class="ttc" id="classEsfera_html_abf33ddbf68a9d97d90ddb1ee83d5c994"><div class="ttname"><a href="classEsfera.html#abf33ddbf68a9d97d90ddb1ee83d5c994">Esfera::~Esfera</a></div><div class="ttdeci">~Esfera()</div><div class="ttdoc">destrutor da classe. </div><div class="ttdef"><b>Definition:</b> esfera.cpp:8</div></div>
+<div class="ttc" id="classEsfera_html_a992a955ef393cbfb8d76346237da4223"><div class="ttname"><a href="classEsfera.html#a992a955ef393cbfb8d76346237da4223">Esfera::getFormaGeo</a></div><div class="ttdeci">std::string getFormaGeo()</div><div class="ttdoc">Metodo que retorna um nome da forma geometrica. </div><div class="ttdef"><b>Definition:</b> esfera.cpp:18</div></div>
+<div class="ttc" id="classEsfera_html"><div class="ttname"><a href="classEsfera.html">Esfera</a></div><div class="ttdef"><b>Definition:</b> esfera.h:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado em Domingo, 22 de Abril de 2018 20:17:22 para Calculadora Geometrica por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Calculadora Geometrica: Código-Fonte de include/paralelepipedo.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Calculadora Geometrica
+   </div>
+   <div id="projectbrief">Linguagem de Programação 1 (lab02) - IMD/UFRN</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">paralelepipedo.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="paralelepipedo_8h.html">Vá para a documentação deste arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PARALELEPIPEDO_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define PARALELEPIPEDO_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classParalelepipedo.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classParalelepipedo.html">Paralelepipedo</a>{</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">private</span>:</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keywordtype">float</span> aresta1;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keywordtype">float</span> aresta2;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordtype">float</span> aresta3; </div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;std::   string formaGeo;  </div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="classParalelepipedo.html#a100ee5bf0b5546da7518f58b9a62eb9a">Paralelepipedo</a>(<span class="keywordtype">float</span> aresta1_, <span class="keywordtype">float</span> aresta2_ , <span class="keywordtype">float</span> aresta3_, std::string formaGeo_);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="classParalelepipedo.html#a844890821adcfdf1bdcaecb7fc2f8a0c">~Paralelepipedo</a>();</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        </div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        </div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">float</span> <a class="code" href="classParalelepipedo.html#a36cd39913ae2686db5e772a7b20799bb">getAresta1</a>();</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">void</span> setAresta1(<span class="keywordtype">float</span> aresta1_);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">float</span> getAresta2();</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordtype">void</span> setAresta2(<span class="keywordtype">float</span> aresta2_);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">float</span> getAresta3();</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordtype">void</span> setAresta3(<span class="keywordtype">float</span> aresta3_);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        std::string <a class="code" href="classParalelepipedo.html#a4a1017ebfb1aecbe982451748df86f25">getFormaGeo</a>();</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        </div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classParalelepipedo.html#aa5545476228a0300681688b9a4ef8f73">setFormaGeo</a>(std::string formaGeo_);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordtype">float</span> <a class="code" href="classParalelepipedo.html#ab7a313123a51c2bdbcf80e0d420db86e">getVolume</a>();</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordtype">float</span> <a class="code" href="classParalelepipedo.html#a1b387f97d9c76e0d0d4bfbdbf5b11eb5">getArea</a>();</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;};</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classParalelepipedo_html_aa5545476228a0300681688b9a4ef8f73"><div class="ttname"><a href="classParalelepipedo.html#aa5545476228a0300681688b9a4ef8f73">Paralelepipedo::setFormaGeo</a></div><div class="ttdeci">void setFormaGeo(std::string formaGeo_)</div><div class="ttdoc">Metodo que atribui uma string ao nome da forma. </div><div class="ttdef"><b>Definition:</b> paralelepipedo.cpp:35</div></div>
+<div class="ttc" id="classParalelepipedo_html_a36cd39913ae2686db5e772a7b20799bb"><div class="ttname"><a href="classParalelepipedo.html#a36cd39913ae2686db5e772a7b20799bb">Paralelepipedo::getAresta1</a></div><div class="ttdeci">float getAresta1()</div><div class="ttdoc">Metodos getters e setters, atribui e acessa valores dos atributos da classe. </div><div class="ttdef"><b>Definition:</b> paralelepipedo.cpp:10</div></div>
+<div class="ttc" id="classParalelepipedo_html_a100ee5bf0b5546da7518f58b9a62eb9a"><div class="ttname"><a href="classParalelepipedo.html#a100ee5bf0b5546da7518f58b9a62eb9a">Paralelepipedo::Paralelepipedo</a></div><div class="ttdeci">Paralelepipedo(float aresta1_, float aresta2_, float aresta3_, std::string formaGeo_)</div><div class="ttdoc">Um construtor paramentizado. </div><div class="ttdef"><b>Definition:</b> paralelepipedo.cpp:4</div></div>
+<div class="ttc" id="classParalelepipedo_html_a4a1017ebfb1aecbe982451748df86f25"><div class="ttname"><a href="classParalelepipedo.html#a4a1017ebfb1aecbe982451748df86f25">Paralelepipedo::getFormaGeo</a></div><div class="ttdeci">std::string getFormaGeo()</div><div class="ttdoc">Metodo que retorna um nome da forma geometrica. </div><div class="ttdef"><b>Definition:</b> paralelepipedo.cpp:32</div></div>
+<div class="ttc" id="classParalelepipedo_html_a844890821adcfdf1bdcaecb7fc2f8a0c"><div class="ttname"><a href="classParalelepipedo.html#a844890821adcfdf1bdcaecb7fc2f8a0c">Paralelepipedo::~Paralelepipedo</a></div><div class="ttdeci">~Paralelepipedo()</div><div class="ttdoc">destrutor da classe. </div><div class="ttdef"><b>Definition:</b> paralelepipedo.cpp:7</div></div>
+<div class="ttc" id="classParalelepipedo_html_ab7a313123a51c2bdbcf80e0d420db86e"><div class="ttname"><a href="classParalelepipedo.html#ab7a313123a51c2bdbcf80e0d420db86e">Paralelepipedo::getVolume</a></div><div class="ttdeci">float getVolume()</div><div class="ttdoc">Metodo que retorna um valor float referente o calculo do volume. </div><div class="ttdef"><b>Definition:</b> paralelepipedo.cpp:39</div></div>
+<div class="ttc" id="classParalelepipedo_html"><div class="ttname"><a href="classParalelepipedo.html">Paralelepipedo</a></div><div class="ttdef"><b>Definition:</b> paralelepipedo.h:10</div></div>
+<div class="ttc" id="classParalelepipedo_html_a1b387f97d9c76e0d0d4bfbdbf5b11eb5"><div class="ttname"><a href="classParalelepipedo.html#a1b387f97d9c76e0d0d4bfbdbf5b11eb5">Paralelepipedo::getArea</a></div><div class="ttdeci">float getArea()</div><div class="ttdoc">Metodo que retorna um valor float referente o calculo da area. </div><div class="ttdef"><b>Definition:</b> paralelepipedo.cpp:43</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado em Domingo, 22 de Abril de 2018 20:17:22 para Calculadora Geometrica por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

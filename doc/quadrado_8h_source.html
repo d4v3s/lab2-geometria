@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Calculadora Geometrica: Código-Fonte de include/quadrado.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Calculadora Geometrica
+   </div>
+   <div id="projectbrief">Linguagem de Programação 1 (lab02) - IMD/UFRN</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">quadrado.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="quadrado_8h.html">Vá para a documentação deste arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef QUADRADO_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define QUADRADO_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classQuadrado.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="classQuadrado.html">Quadrado</a>{</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">private</span>:</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordtype">float</span> lado; </div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;std::   string formaGeo; </div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="classQuadrado.html#a50f57dc9d472f2ee34534a03ef5223da">Quadrado</a>(<span class="keywordtype">float</span> lado_, std::string formaGeo_);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="classQuadrado.html#ae3f2e0aad221923909523240b2d76390">~Quadrado</a>();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordtype">float</span> <a class="code" href="classQuadrado.html#a3885efce10ef6002eee2c4cd9c6e5fc1">getLado</a>();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        </div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classQuadrado.html#a651a594cd1f21dccc0029989f33f7a55">setLado</a>(<span class="keywordtype">float</span> lado_);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        </div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordtype">float</span> <a class="code" href="classQuadrado.html#a084b02c1034ae4f35cadb5babdaedbb9">getPerimetro</a>();</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        </div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">float</span> <a class="code" href="classQuadrado.html#a9037b7b7f774a8a1c8dfbfb320d9646c">getArea</a>();</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        </div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        std::string <a class="code" href="classQuadrado.html#add407d1f1816cb93cef1cfe5bac430d5">getFormaGeo</a>();</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        </div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classQuadrado.html#a1f966e3d7d65ca95076c19646a8a0d50">setFormaGeo</a>(std::string formaGeo_);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;};</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="ttc" id="classQuadrado_html_add407d1f1816cb93cef1cfe5bac430d5"><div class="ttname"><a href="classQuadrado.html#add407d1f1816cb93cef1cfe5bac430d5">Quadrado::getFormaGeo</a></div><div class="ttdeci">std::string getFormaGeo()</div><div class="ttdoc">Metodo que retorna um nome da forma geometrica. </div><div class="ttdef"><b>Definition:</b> quadrado.cpp:15</div></div>
+<div class="ttc" id="classQuadrado_html_a9037b7b7f774a8a1c8dfbfb320d9646c"><div class="ttname"><a href="classQuadrado.html#a9037b7b7f774a8a1c8dfbfb320d9646c">Quadrado::getArea</a></div><div class="ttdeci">float getArea()</div><div class="ttdoc">Metodo que retorna um valor float referente o calculo da area. </div><div class="ttdef"><b>Definition:</b> quadrado.cpp:24</div></div>
+<div class="ttc" id="classQuadrado_html"><div class="ttname"><a href="classQuadrado.html">Quadrado</a></div><div class="ttdef"><b>Definition:</b> quadrado.h:9</div></div>
+<div class="ttc" id="classQuadrado_html_a3885efce10ef6002eee2c4cd9c6e5fc1"><div class="ttname"><a href="classQuadrado.html#a3885efce10ef6002eee2c4cd9c6e5fc1">Quadrado::getLado</a></div><div class="ttdeci">float getLado()</div><div class="ttdoc">Metodo que retorna um valor float referente o tamanho do lado. </div><div class="ttdef"><b>Definition:</b> quadrado.cpp:9</div></div>
+<div class="ttc" id="classQuadrado_html_a651a594cd1f21dccc0029989f33f7a55"><div class="ttname"><a href="classQuadrado.html#a651a594cd1f21dccc0029989f33f7a55">Quadrado::setLado</a></div><div class="ttdeci">void setLado(float lado_)</div><div class="ttdoc">Metodo que atribui um valor float ao tamanho do lado. </div><div class="ttdef"><b>Definition:</b> quadrado.cpp:12</div></div>
+<div class="ttc" id="classQuadrado_html_a1f966e3d7d65ca95076c19646a8a0d50"><div class="ttname"><a href="classQuadrado.html#a1f966e3d7d65ca95076c19646a8a0d50">Quadrado::setFormaGeo</a></div><div class="ttdeci">void setFormaGeo(std::string formaGeo_)</div><div class="ttdoc">Metodo que atribui uma string ao nome da forma. </div><div class="ttdef"><b>Definition:</b> quadrado.cpp:18</div></div>
+<div class="ttc" id="classQuadrado_html_ae3f2e0aad221923909523240b2d76390"><div class="ttname"><a href="classQuadrado.html#ae3f2e0aad221923909523240b2d76390">Quadrado::~Quadrado</a></div><div class="ttdeci">~Quadrado()</div><div class="ttdoc">destrutor. </div><div class="ttdef"><b>Definition:</b> quadrado.cpp:6</div></div>
+<div class="ttc" id="classQuadrado_html_a084b02c1034ae4f35cadb5babdaedbb9"><div class="ttname"><a href="classQuadrado.html#a084b02c1034ae4f35cadb5babdaedbb9">Quadrado::getPerimetro</a></div><div class="ttdeci">float getPerimetro()</div><div class="ttdoc">Metodo que retorna um valor float referente o calculo do perimetro. </div><div class="ttdef"><b>Definition:</b> quadrado.cpp:21</div></div>
+<div class="ttc" id="classQuadrado_html_a50f57dc9d472f2ee34534a03ef5223da"><div class="ttname"><a href="classQuadrado.html#a50f57dc9d472f2ee34534a03ef5223da">Quadrado::Quadrado</a></div><div class="ttdeci">Quadrado(float lado_, std::string formaGeo_)</div><div class="ttdoc">Um construtor paramentizado. </div><div class="ttdef"><b>Definition:</b> quadrado.cpp:3</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado em Domingo, 22 de Abril de 2018 20:17:22 para Calculadora Geometrica por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>
